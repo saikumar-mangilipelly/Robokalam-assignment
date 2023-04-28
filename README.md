@@ -1,4 +1,5 @@
 The project was built using reactjs and firebase for the backend
+
 flow of the project :
 
 - User can signup using email and password or with google directly
