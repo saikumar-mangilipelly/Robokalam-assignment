@@ -8,5 +8,6 @@ flow of the project :
 - It contains a live video and space for the teaching video
 - It also contains the emotion where you can add the emotion of the student
 - And also Protected routing also implemented
-  Extra features :
-- Google authentication also enabled
+
+Extra features :
+-Google authentication also enabled
