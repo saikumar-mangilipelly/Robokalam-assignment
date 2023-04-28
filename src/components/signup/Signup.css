@@ -1,0 +1,50 @@
+.signupform {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 18px;
+    width: 380px;
+    margin-top: 7rem;
+    border-radius: 5px;
+    background-color: white;
+}
+input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.signmain{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}
+input:focus {
+    outline: none;
+    box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: darkorchid;
+    color: white;
+}
+
+.line {
+    height: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.line span {
+    background:white;
+    padding: 0 15px;
+}
+
+.btngoogle {
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
