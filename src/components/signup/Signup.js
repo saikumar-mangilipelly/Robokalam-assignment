@@ -68,7 +68,7 @@ function Signup() {
     await signInWithPopup(auth, provider)
       .then(async (usercredentials) => {        
         const docref=await getDoc(doc(db,"users",usercredentials.user.uid))        
-        if (docref) {
+        if (docref.exists()) {
           toast.error("User Already exists", {
             position: "top-right",
             autoClose: 2000,
